@@ -1,0 +1,98 @@
+<div class="container-flex">
+  <div class="header-container">
+    <div class="header-icons-arrow">
+      <%= image_tag "reports/header-arrow.png" %>
+    </div>
+
+    <div class="header-icons-homie">
+      <%= image_tag "reports/header-homie-movil.png" %>
+    </div>
+
+    <div class="header-icons-user">
+      <%= image_tag "reports/header-user.png" %>
+    </div>  
+  </div>
+
+  <div class="owner-reports">
+    <div class="owner-report">
+      <%= image_tag "reports/header-homie-desktop.png" %>
+    </div>
+     
+    <div> 
+      <div>
+        <h2>Reporte de Inquilino</h2>
+        <span>Fecha: julio 16 2019 Válido hasta: octubre 16 2019</span>
+        <p>
+          Calculado con Homie Technology que tiene un 
+          rango de 0 a 1500
+        </p>
+      </div>
+    </div>      
+  </div>
+  
+  <div class="information-section">
+    <div class="ranges">
+      <div class="owner-range">
+        <div class="circle-number">
+          <%= image_tag "reports/circle.png" %>
+          <span>1052</span>  
+        </div>
+
+        <div class="range">
+          <div class="range-number">
+            <span><b>0</b></span>
+            <span><b>1500</b></span>
+          </div>
+          <div class="range-container">
+            <%= image_tag "reports/ranges.png" %>
+          </div>     
+          <div class="range-text">
+            <span>Malo</span>
+            <span>Medio</span>
+            <span>Bueno</span>
+            <span>Excelente</span>
+          </div>
+        </div>
+
+        <div class="points">
+          <h2>Este puntaje es bueno</h2>
+          <span>
+            Rango superior al 43% de los inquilinos de México 
+          </span>  
+        </div>
+      </div>
+
+      <div class="information-range">
+        <div class="information">
+          <span>
+            Indentificación Otorgada: <b>Verificada</b>
+          </span>  
+          <span>
+            Nivel Socioeconómico: <b>NA</b>
+          </span> 
+          <span>
+            Listas negras: <b>No</b>
+          </span> 
+          <span>
+            Prevención de lavado de dinero: <b>No disponible</b>
+          </span> 
+          <span>
+            Redes Sociales vinculadas: <b>Ninguna</b>
+          </span>   
+        </div>
+      </div>
+    </div>
+
+    <div class="personal">
+      <div class="user-personal">
+
+      </div>
+
+      <div class="information-personal">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= stylesheet_link_tag 'reports' %>
