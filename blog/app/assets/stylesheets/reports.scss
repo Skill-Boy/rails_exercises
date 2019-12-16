@@ -1,0 +1,45 @@
+// Place all the styles related to the Reports controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body{
+  padding: 0;
+  margin: 0;    
+}
+
+.container-flex {
+  width: 100%;  
+  border: red solid;
+
+  @media screen and (min-width: 375px) {
+    max-width: 1200px;  
+    border: black solid;
+  }
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (min-width: 375px) {
+    
+  }    
+}
+
+.header-container .header-icons {
+  width: 100px;
+  height: 40px;
+  border: black solid; 
+
+  @media screen and (min-width: 375px) {
+  
+  }    
+}
+
+.header-container .header-icons img{
+  width: 100%;
+  height: 100%;
+  margin: 0;    
+}
