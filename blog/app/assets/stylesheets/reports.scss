@@ -1,0 +1,66 @@
+// Place all the styles related to the Reports controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+@mixin containers($width, $height) {
+  width: $width;
+  height: $height; 
+}  
+
+.icons-img {
+  @include containers(100%, 100%);
+  margin: 0; 
+}
+
+.container-flex {
+  width: 100%;
+
+  @media screen and (min-width: 376px) {
+    max-width: 750px;
+    border: red solid;  
+  }
+}
+
+.header-container {
+  @include containers(100%, 50px);
+  margin-top: 8px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  box-shadow:0px 2px 2px #c3c3c3;
+  
+  @media screen and (min-width: 376px) {
+    display: none;
+  }
+}
+
+.header-container .header-icons-arrow {
+  @include containers(50px, 30px);
+}
+
+.header-container .header-icons-homie {
+  @include containers(80px, 35px);
+}
+
+.header-container .header-icons-user {
+  @include containers(30px, 30px); 
+}
+
+.header-container .header-icons img {
+  @extend .icons-img;    
+}
+
+.header-container .header-icons-homie img {
+  @extend .icons-img;
+}
+
+.header-container .header-icons-user img {
+  @extend .icons-img;
+}
