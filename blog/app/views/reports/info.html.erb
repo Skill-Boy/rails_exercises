@@ -1,21 +1,21 @@
 <div class="container-flex">
   <div class="header-container">
     <div class="header-icons-arrow">
-      <%= image_tag "reports/header-arrow.png" %>
+      <%= image_tag "reports/header-arrow" %>
     </div>
 
     <div class="header-icons-homie">
-      <%= image_tag "reports/header-homie-movil.png" %>
+      <%= image_tag "reports/header-homie-movil" %>
     </div>
 
     <div class="header-icons-user">
-      <%= image_tag "reports/header-user.png" %>
+      <%= image_tag "reports/header-user" %>
     </div>  
   </div>
 
   <div class="owner-reports">
     <div class="owner-report">
-      <%= image_tag "reports/header-homie-desktop.png" %>
+      <%= image_tag "reports/header-homie-desktop" %>
     </div>
      
     <div> 
@@ -34,7 +34,7 @@
     <div class="ranges">
       <div class="owner-range">
         <div class="circle-number">
-          <%= image_tag "reports/circle.png" %>
+          <%= image_tag "reports/circle" %>
           <span>1052</span>  
         </div>
 
@@ -44,7 +44,7 @@
             <span><b>1500</b></span>
           </div>
           <div class="range-container">
-            <%= image_tag "reports/ranges.png" %>
+            <%= image_tag "reports/ranges" %>
           </div>     
           <div class="range-text">
             <span>Malo</span>
@@ -85,14 +85,132 @@
 
     <div class="personal">
       <div class="user-personal">
+        <div class="user-img">
+          <%= image_tag "reports/header-user" %>
+        </div>
 
+        <div class="user-info">
+          <span class="name-user">
+            <b>Esteban Manuel Lopez Ramirez</b>
+          </span>
+
+          <span class="city">
+            centro, 123, Piso 12,Depa 123,
+            Centro, Yucatán  
+          </span>
+
+          <span class="cash">
+            $44,000.00  
+          </span>
+        </div>
       </div>
 
       <div class="information-personal">
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/bag" %>
+          </div>
+          
+          <div class="info">
+            <span>/ <b>Empleo</b></span>
+          </div>
+        </div>  
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/book" %>
+          </div>
 
+          <div class="info">
+            <span>Especialidad-o-diplomado / <b>UTM</b></span>
+          </div>  
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/money" %>
+          </div>
+
+          <div class="info">
+            <span>Ingresos verificados <b>No disponible</b></span>
+          </div>  
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/mail" %>
+          </div>
+
+          <div class="info">
+            <span><b>dev+victor126inquilino@homie.mx</b></span>
+          </div>  
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/phone" %>
+          </div>
+
+          <div class="info">
+            <span><b>9992023842</b></span>
+          </div>  
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/people" %>
+          </div>
+
+          <div class="info">
+            <span>Referencia: <b>Lorena Esther Manzanero Rodriguez</b></span>
+            <span class="city">centro, 123, Centro, Yucatán, CP 97000</span>  
+          </div>
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/people" %>
+          </div>
+
+          <div class="info">
+            <span>Referencia: <b>Catalina Esmeralda  Estrada Castro</b></span>
+            <span class="city">centro, 123, Petrolera, Veracruz, CP 96500</span>  
+          </div>
+        </div>
+        
+        <div class="info-container">
+          <div class="info-img">
+            <%= image_tag "reports/people" %>
+          </div>
+
+          <div class="info">
+            <span>Referencia: <b>Luis Manuel Castillo Lopez</b></span>
+            <span class="city">centro, 123, Centro, Yucatán, CP 97000</span>  
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="homie">
+    <div class="homie-info">
+      <p>
+        Nuestra tecnología nos permite rentar tu inmueble 
+        al <b>mejor inquilino</b>, sin <b>ningún riesgo</b> y en <b>tiempo record.</b>
+      </p>
+    </div>
+
+    <div class="homie-info">
+      <div>
+        <%= image_tag "reports/homie" %>
+      </div> 
+    </div>
+  </div>
+
+  <div class="save-owner">
+    <a href="#"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;Guardar</a>
   </div>
 </div>
 
 <%= stylesheet_link_tag 'reports' %>
+<%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css' %>
